@@ -1,0 +1,134 @@
+body {
+    color: #3d4451;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #efefef;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.section-about {
+    padding-top: 160px;
+    position: relative;
+}
+
+.section-about .section-box {
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.section-about .profile {
+    padding: 57px 50px 15px 50px;
+}
+
+.section-about .profile-info {
+    color: #3d4451;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #dedede;
+}
+
+.section-about .profile-title {
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.section-about .profile-position {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 0;
+}
+
+.section-about .profile-title span {
+    font-weight: 300;
+}
+
+.section-about .profile-photo {
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
+.profile-preword {
+    margin-bottom: 28px;
+}
+
+.profile-photo img {
+    width: 100%;
+    display: block;
+}
+
+.profile-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.profile-list .cont {
+    display: block;
+    margin-left: 125px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #9da0a7;
+}
+
+.profile-list li {
+    margin-bottom: 13px;
+}
+
+.profile-list .title {
+    display: block;
+    width: 120px;
+    float: left;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.profile-social {
+    padding: 15px 0;
+    background-color: #07cb79;
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+.social li a {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.social li a:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.social li a .dicon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+    display: block;
+}
